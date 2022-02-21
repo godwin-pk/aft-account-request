@@ -2,8 +2,8 @@ module "sandbox_test1" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "US_AWS-Explore+Landing-Zone-Accelerator@pwc.com"
-    AccountName               = "PwC Explore - Landing Zone Accelerator"
+    AccountEmail              = "us_aws-control-tower-accelerator+AFT-Account10@pwc.com"
+    AccountName               = "sand_test_1"
     ManagedOrganizationalUnit = "Sandbox"
     SSOUserEmail              = "godwin.p.k@pwc.com"
     SSOUserFirstName          = "Godwin"
@@ -23,5 +23,5 @@ module "sandbox_test1" {
     group = "non-prod"
   }
 
-  account_customizations_name = "sandbox_test1"
+  account_customizations_name = "development customization"
 }
