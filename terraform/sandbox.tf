@@ -1,9 +1,9 @@
-module "sandbox_test1" {
+module "sandbox_account_01" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
     AccountEmail              = "us_aws-control-tower-accelerator+AFT-Account10@pwc.com"
-    AccountName               = "sand_test_1"
+    AccountName               = "sandbox_account_01"
     ManagedOrganizationalUnit = "Sandbox"
     SSOUserEmail              = "godwin.p.k@pwc.com"
     SSOUserFirstName          = "Godwin"
