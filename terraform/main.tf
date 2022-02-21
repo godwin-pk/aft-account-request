@@ -1,4 +1,4 @@
-module "sandbox_1" {
+module "sandbox_test1" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
@@ -23,5 +23,5 @@ module "sandbox_1" {
     group = "non-prod"
   }
 
-  account_customizations_name = "sandbox_test"
+  account_customizations_name = "sandbox_test1"
 }
