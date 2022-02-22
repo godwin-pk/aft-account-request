@@ -4,7 +4,7 @@ module "sandbox_account_01" {
   control_tower_parameters = {
     AccountEmail              = "us_aws-control-tower-accelerator+AFT-Account10@pwc.com"
     AccountName               = "sandbox_account_01"
-    ManagedOrganizationalUnit = "Sandbox"
+    ManagedOrganizationalUnit = "Sandbox (ou-1a17-rs08e5ec)"
     SSOUserEmail              = "godwin.p.k@pwc.com"
     SSOUserFirstName          = "Godwin"
     SSOUserLastName           = "K"
@@ -23,5 +23,5 @@ module "sandbox_account_01" {
     group = "non-prod"
   }
 
-  account_customizations_name = "development customization"
+  account_customizations_name = "development_customization"
 }
