@@ -20,6 +20,11 @@ module "sandbox_account_01" {
     "Owner"       = "godwin.p.k@pwc.com"
   }
 
+   change_management_parameters = {
+    change_requested_by = "godwin PK"
+    change_reason       = "testing the account vending process"
+  }
+
 
 
   account_customizations_name = "sandbox01"
