@@ -17,9 +17,9 @@ terraform {
 {% else -%}
 terraform {
     backend "remote" {
-        organization = "{{ terraform_org_name }}"
+        organization = "aft-deployment"
         workspaces {
-        name = "{{ terraform_workspace_name }}"
+        name = "aft-account-request"
         }
     }
 }
