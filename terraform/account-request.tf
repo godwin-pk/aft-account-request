@@ -1,12 +1,12 @@
 # Copyright Amazon.com, Inc. or its affiliates. All rights reserved.
 # SPDX-License-Identifier: Apache-2.0
 #
-module "sandbox_account_01" {
+module "sandbox_account_02" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail = "us_aws-control-tower-accelerator+AFT-Account_custom01@pwc.com"
-    AccountName  = "sandbox-account-01"
+    AccountEmail = "us_aws-control-tower-accelerator+AFT-Account_custom02@pwc.com"
+    AccountName  = "sandbox-account-02"
     # Syntax for top-level OU
     ManagedOrganizationalUnit = "Sandbox (ou-1a17-rs08e5ec)"
     # Syntax for nested OU
